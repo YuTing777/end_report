@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	
+	<!-- css連結 -->
+	<link href="./css/bootstrap.min.css" rel="stylesheet">	
+	<link href="./css/style.css" rel="stylesheet">
+    <title>STRAY PET</title>
+    
+</head>
+<body>
+    <header>
+        <!-- 漢堡選單 -->
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--固定在上方--> <!--更改BG顏色-->
+            
+            <a class="navbar-brand" href="./index.html"><img src="img/LOGO.png" alt=""></a>
+            <a class="h1 translate-middle" href="./index.html">STRAY PET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-door" viewBox="0 0 20 20">
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                      </svg>
+                      首頁
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart2" viewBox="0 0 20 20">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                        </svg>
+                        購物車
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart" viewBox="0 0 20 20">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg>
+                      追蹤的動物
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./animal.html">收養專區</a></li>
+                      <li><a class="dropdown-item" href="./place.html">服務據點</a></li>
+                      <li><a class="dropdown-item" href="./yummy.html">捐贈及義賣</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        
+        </nav>
+
+    </header>
+    <div class="body">
+        <!-- <div class="map_box">
+            <a href=""><img src="./img/taiwan.png" alt="taiwan_map" width="800" class="map"></a>
+        </div> -->
+        <div class="map_box">
+            <img src="./img/taiwan.png" alt="taiwan_map" width="800" class="map">
+            <a href="#home-tab" class="regionA"><div class="h5">北部 : 5 個據點</div>南港、內湖、信義、大同、文山</a>
+            <a href="#profile-tab" class="regionB"><div class="h5">中部 : 5 個據點</div>北區、中區、西區、東區、南區</a>
+            <a href="#contact-tab" class="regionC"><div class="h5">南部 : 6 個據點</div>鹽埕、鼓山、左營、楠梓、三民、新興</a>
+        </div>
+
+        <!-- <div class="text-center">
+            <div class="">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" id="north">北部</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="central">中部</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="south">南部</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> -->
+        
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">北部</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">中部</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">南部</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="house">
+                    <img src="./img/南港.jpg" alt="南港" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">南港</div>
+                        <div class="w3">
+                            115台北市南港區南港路一段360號
+                            <br>02 27831343
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/內湖.jpg" alt="內湖" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">內湖</div>
+                        <div class="w3">
+                            114台北市內湖區民權東路六段99號<br>
+                            02 27925828
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/信義.jpg" alt="信義" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">信義</div>
+                        <div class="w3">
+                            110台北市信義區福德街86號<br>
+                            02 27233372
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/大同.jpg" alt="大同" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">大同</div>
+                        <div class="w3">
+                            103台北市大同區昌吉街57號
+                            <br>02 2597532
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/文山.jpg" alt="文山" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">文山</div>
+                        <div class="w3">
+                            103台北市大同區昌吉街57號
+                            <br>02 25975323
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="house">
+                <img src="./img/北區.jpg" alt="北區" class="house_ph">
+                <div class="house_word">
+                    <div class="house_title">北區</div>
+                    <div class="w3">
+                        404台中市北區永興街301號
+                        <br>04 2231 4031
+                    </div>
+                </div>
+                </div>
+                <div class="house">
+                    <img src="./img/中區.jpg" alt="中區" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">中區</div>
+                        <div class="w3">
+                            400台中市中區成功路300號3樓
+                            <br>04 2222 2502
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/西區.jpg" alt="西區" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">西區</div>
+                        <div class="w3">
+                            403台中市西區金山路11號
+                            <br>04 2224 5200
+
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/東區.jpg" alt="東區" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">東區</div>
+                        <div class="w3">
+                            401台中市東區長福路245號
+                            <br>04 2215 1988
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/南區.jpg" alt="南區" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">南區</div>
+                        <div class="w3">
+                            402台中市南區工學路72號3樓
+                            <br>04 2262 6105
+                        </div>
+                    </div>
+                </div>
+
+            </div>  
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="house">
+                    <img src="./img/鹽埕.jpg" alt="鹽埕" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">鹽埕</div>
+                        <div class="w3">
+                            803高雄市鹽埕區大仁路6號8,9樓
+                            <br>07 5513316
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/鼓山.jpg" alt="鼓山" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">鼓山</div>
+                        <div class="w3">
+                            804高雄市鼓山區鼓山二路166號2樓
+                            <br>07 5311191
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/左營.jpg" alt="左營" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">左營</div>
+                        <div class="w3">
+                            813高雄市左營區左營大路479號4,5樓
+                            <br>07 5831111
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/楠梓.jpg" alt="楠梓" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">楠梓</div>
+                        <div class="w3">
+                            811高雄市楠梓區楠梓新路264號
+                            <br>07 3517121
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/三民.jpg" alt="三民" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">三民</div>
+                        <div class="w3">
+                            807高雄市三民區哈爾濱街215號
+                            <br>07 3228160
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <img src="./img/新興.jpg" alt="新興" class="house_ph">
+                    <div class="house_word">
+                        <div class="house_title">新興</div>
+                        <div class="w3">
+                            800高雄市新興區中正三路34號4樓
+                            <br>07 2386113
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+
+        
+    </div>
+    
+
+    <footer class="footer">
+        <div class="footer_1">
+            <p class="text-left">諮詢時間：9:00-17:00<br />服務專線：02-0000000</p>
+        </div>
+        <div class="logo">
+            <img src="./img/LOGO.png" width="48" alt="LOGO" class="logo_1" >
+        </div>
+        <div class="footer_2">
+            <p class="text-right">copyright© stray pet</p>
+        </div>
+        
+    </footer>
+    <!-- 將 jQuery 引入移到 Bootstrap 之前 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+<!-- 其他部分保持不變 -->
+
+<!-- 將原本的 script 搬到這裡 -->
+<script>
+    document.querySelectorAll('.map_box a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const tab = new bootstrap.Tab(document.querySelector(targetId));
+        tab.show();
+    });
+});
+
+</script>
+
+</body>
+
+</html>

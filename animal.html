@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	
+	<!-- css連結 -->
+	<link href="./css/bootstrap.min.css" rel="stylesheet">	
+	<link href="./css/style.css" rel="stylesheet">
+    <title>STRAY PET</title>
+    
+</head>
+
+<body>
+    <header>
+        <!-- 漢堡選單 -->
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--固定在上方--> <!--更改BG顏色-->
+            
+            <a class="navbar-brand" href="./index.html"><img src="img/LOGO.png" alt=""></a>
+            <a class="h1 translate-middle" href="./index.html">STRAY PET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-door" viewBox="0 0 20 20">
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                      </svg>
+                      首頁
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart2" viewBox="0 0 20 20">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                        </svg>
+                        購物車
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart" viewBox="0 0 20 20">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg>
+                      追蹤的動物
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./animal.html">收養專區</a></li>
+                      <li><a class="dropdown-item" href="./place.html">服務據點</a></li>
+                      <li><a class="dropdown-item" href="./yummy.html">捐贈及義賣</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        
+        </nav>
+
+    </header>
+    
+    <div class="body">
+       
+        <div class="image-wrapper kk">
+            <img src="./img/領養_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="text-center title">收養專區</p>
+                <hr class="title_line">
+            </div>
+        </div>
+
+       
+
+        <form class="mx-auto"> 
+            <div class="text-center btn-group">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+            </svg> -->
+            <label>
+                <input type="checkbox" name="pet" value="dog"> Dog 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28">
+                    <defs>
+                        <style>.cls-1{fill:#231f20}</style>
+                    </defs>
+                    <g id="dog"><path class="cls-1" d="M29 7h-2.37a4.24 4.24 0 0 0-2.31-1.95A4.13 4.13 0 0 0 23 4.84V3a1 1 0 0 0-1-1h-1.29a3.36 3.36 0 0 0-3.2 2.3l-.44 1.33-1.3 3.26A9.54 9.54 0 0 1 14 11.72l-3.75 4.17a1 1 0 1 0 1.48 1.33l3.75-4.16a11.41 11.41 0 0 0 2.13-3.43L19 6.32l.46-1.39A1.38 1.38 0 0 1 20.71 4H21v2a1 1 0 0 0 1.31 1 2.22 2.22 0 0 1 1.37 0 2.38 2.38 0 0 1 1.38 1.39A1 1 0 0 0 26 9h2v1.63A1.37 1.37 0 0 1 26.63 12H24a1 1 0 0 0-.86.49 1 1 0 0 0 0 1 7.55 7.55 0 0 1 .86 2.64 8.06 8.06 0 0 1-.89 4.78.94.94 0 0 0-.12.47 4.45 4.45 0 0 0 .08.81 4.7 4.7 0 0 0 .25.78l2.15 5h-1.85L21 22.76V20a1 1 0 0 0-2 0v3a1 1 0 0 0 .11.45L21.38 28H20v-.67a3.32 3.32 0 0 0-2-3V24a4 4 0 0 0-4-4 1 1 0 0 0 0 2 2 2 0 0 1 2 2h-2a1 1 0 0 0 0 2h2.67A1.34 1.34 0 0 1 18 27.33V28h-3.46a4.71 4.71 0 0 1-4.23-2.61l-.06-.12a6.71 6.71 0 0 1-.62-4.11 3.82 3.82 0 0 1 .09-.44 1 1 0 0 0-.36-1v-.17a8 8 0 0 1-.74-4.94L9 12.16A1 1 0 0 0 7.73 11 7.81 7.81 0 0 0 2 19a6.32 6.32 0 0 0 2.4 4.8A6.07 6.07 0 0 0 8 25a8.81 8.81 0 0 0 .47 1.16l.06.12a6.71 6.71 0 0 0 6 3.72H27a1 1 0 0 0 .92-1.39l-2.76-6.43a2.91 2.91 0 0 1-.12-.39v-.19a9.84 9.84 0 0 0 1-5.73 10 10 0 0 0-.5-1.87h1.09A3.37 3.37 0 0 0 30 10.63V8a1 1 0 0 0-1-1zM5.6 22.2A4.34 4.34 0 0 1 4 18.94a6 6 0 0 1 .85-3.41 5.67 5.67 0 0 1 1.86-1.86l-.1.61a10 10 0 0 0 .92 6.17 1.06 1.06 0 0 0 .16.21v.18a9 9 0 0 0-.1 2.16 4 4 0 0 1-1.99-.8z"/><path class="cls-1" d="M24 9a1 1 0 0 0-1-1 1 1 0 1 0 1 1z"/></g>
+                </svg>
+            </label>
+            <label>
+                <input type="checkbox" name="pet" value="cat"> Cat  
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"  width="30" height="30">
+                    <path d="M23.32 18.58a.94.94 0 0 1 .82-.18L27 19a2 2 0 0 0 2.2-1.09l.55-1.12a2.06 2.06 0 0 0 .21-.91V14a4.36 4.36 0 0 0-1.86-3.59l-1.5-1.06a1 1 0 0 0-1.23.08l-1.54 1.39-2.41-.82a.88.88 0 0 0-.36-.06l-8.1.29a1 1 0 0 0 0 2l8.04-.29 2.78 1a1 1 0 0 0 1-.2l1.39-1.25.88.6A2.36 2.36 0 0 1 28 14v1.94l-.54 1.13-2.89-.62a3 3 0 0 0-2.5.57A2.9 2.9 0 0 0 21 19.27V25h-1v-5.11a1 1 0 0 0-.8-1l-7.31-1.46a3 3 0 0 0-2.6.85L7 20.64a1 1 0 0 0-.26.9L7.48 25h-.69L6 21.91l1-3.75a1 1 0 0 0 0-.24v-3.35a2.22 2.22 0 0 1 1.26-2l.2-.07a2 2 0 0 1 .64-.12 1 1 0 1 0 0-2 3.81 3.81 0 0 0-1.31.24H4.93a.53.53 0 0 1-.42-.22.65.65 0 0 1-.12-.57.61.61 0 0 1 .33-.43.48.48 0 0 1 .45 0l.18.09a1 1 0 1 0 .92-1.78l-.17-.09a2.52 2.52 0 0 0-2.21-.06 2.61 2.61 0 0 0-1.45 1.78 2.66 2.66 0 0 0 .5 2.28 2.54 2.54 0 0 0 2 1h.56a4.23 4.23 0 0 0-.5 2v3.22l-1 3.83a.94.94 0 0 0 0 .47l1 4.09A1 1 0 0 0 6 27h2.72a1 1 0 0 0 .77-.37 1 1 0 0 0 .2-.84l-.88-4.14L10 20.43V23a1 1 0 0 0 .17.55l2 3A1 1 0 0 0 13 27h3a1 1 0 0 0 .89-1.45L15.12 22l.77-1.55a.88.88 0 0 0 0-.15l2.06.41V26a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1.72l2 .5V25a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1.17a3.54 3.54 0 0 0-2.42-3.36l-4.26-1.42A1 1 0 0 0 23 19a.79.79 0 0 1 .32-.42zm-10.21 3.87L14.38 25h-.84L12 22.7v-3.19l1.93.39-.82 1.65a1 1 0 0 0 0 .9zM27 22.37a1.54 1.54 0 0 1 1 1.46V24h-1a1 1 0 0 0-.76-1L23 22.22v-1.17z" style="fill:#231f20"/>
+                </svg>
+            </label></div>
+            
+    
+     
+     
+            <div class="btn-group">
+                <div class="definition">
+                    <span>年齡:</span>
+                    <button class="btn btn-secondary dropdown-toggle btn-font" type="button" id="ageDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                        <span id="selectedAge">未設定</span>
+                    </button>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="ageDropdown">
+                        <li><a class="dropdown-item btn-font" href="#selectedAge">1歲以下</a></li>
+                        <li><a class="dropdown-item btn-font" href="#selectedAge">1到5歲</a></li>
+                        <li><a class="dropdown-item btn-font" href="#selectedAge">5歲以上</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="definition">
+                    <span>性別:</span>
+                    <button class="btn btn-secondary dropdown-toggle btn-font" type="button" id="wmDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                        <span id="selectedWM">未設定</span>
+                    </button>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="wmDropdown">
+                        <li><a class="dropdown-item btn-font" href="#selectedWM">公</a></li>
+                        <li><a class="dropdown-item btn-font" href="#selectedWM">母</a></li>
+                    </ul>
+                </div>
+                <div class="definition">
+                    <span>體型:</span>
+                    <button class="btn btn-secondary dropdown-toggle btn-font" type="button" id="sizeDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                        <span id="selectedSize">未設定</span>
+                    </button>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="sizeDropdown">
+                        <li><a class="dropdown-item btn-font" href="#selectedSize">大型</a></li>
+                        <li><a class="dropdown-item btn-font" href="#selectedSize">中型</a></li>
+                        <li><a class="dropdown-item btn-font" href="#selectedSize">小型</a></li>
+                    </ul>
+                </div>
+            </div>
+          
+          <div class="btn-group">
+            <div class="definition">
+                <span>地點:</span>
+                <button class="btn btn-secondary dropdown-toggle btn-font" type="button" id="placeDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <span id="selectedPlace">未設定</span>
+                </button>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="placeDropdown">
+                    <li><a class="dropdown-item btn-font" href="#">北部</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">中部</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">南部</a></li>
+                </ul>
+            </div>
+            <div class="definition">
+                <span>毛色:</span>
+                <button class="btn btn-secondary dropdown-toggle btn-font" type="button" id="colorDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <span id="selectedColor">未設定</span>
+                </button>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="colorDropdown">
+                    <li><a class="dropdown-item btn-font" href="#">純色</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">重點色</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">斑點</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">其他</a></li>
+                </ul>
+            </div>
+            <div class="definition">
+                <span>個性:</span>
+                <button class="btn btn-secondary dropdown-toggle btn-font" type="button" id="pointDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <span id="selectedPoint">未設定</span>
+                </button>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="pointDropdown">
+                    <li><a class="dropdown-item btn-font" href="#">親人</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">膽小</a></li>
+                    <li><a class="dropdown-item btn-font" href="#">忠誠</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="text-center"><button type="button" onclick="getSelectedPets()" class="btn btn-secondary btn-font">搜尋</button></div>
+          
+        </form>
+        
+        <div class="box_news">
+            <div class="box">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="title text-left">為您推薦</p>
+                        <hr class="title_line">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/烏漆墨黑.jpg" alt="" class="img1">
+                            <div class="h3 text-center">烏漆墨黑</div>
+                            <p class="product_name text-center">
+                                <br>3歲
+                                <br>大型犬
+                                <br>黑色
+                                <br>公
+                                <br>親人、活潑
+                                <br>中部</p>
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/虎視眈眈.jpg" alt="" class="img1">
+                            <div class="h3 text-center">虎視眈眈</div>
+                            <p class="product_name text-center">
+                                <br>1歲
+                                <br>小型貓
+                                <br>虎斑
+                                <br>母
+                                <br>膽小、溫馴
+                                <br>南部</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/雪白如霜.jpg" alt="" class="img1">
+                            <div class="h3 text-center">雪白如霜</div>
+                            <p class="product_name text-center">
+                                <br>5歲
+                                <br>中型犬
+                                <br>白色
+                                <br>公
+                                <br>兇巴巴、忠誠<br>北部</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+    <footer class="footer">
+        <div class="footer_1">
+            <p class="text-left">諮詢時間：9:00-17:00<br />服務專線：02-0000000</p>
+        </div>
+        <div class="logo">
+            <img src="./img/LOGO.png" width="48" alt="LOGO" class="logo_1" >
+        </div>
+        <div class="footer_2">
+            <p class="text-right">copyright© stray pet</p>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dogCheckbox = document.querySelector('input[value="dog"]');
+            const catCheckbox = document.querySelector('input[value="cat"]');
+            const dogIcon = document.getElementById('dogIcon');
+            const catIcon = document.getElementById('catIcon');
+    
+            dogCheckbox.addEventListener('change', function () {
+                if (dogCheckbox.checked) {
+                    catCheckbox.checked = false;
+                    toggleIcon('dog');
+                } else {
+                    toggleIcon('');
+                }
+            });
+    
+            catCheckbox.addEventListener('change', function () {
+                if (catCheckbox.checked) {
+                    dogCheckbox.checked = false;
+                    toggleIcon('cat');
+                } else {
+                    toggleIcon('');
+                }
+            });
+    
+            function toggleIcon(icon) {
+                if (icon === 'dog') {
+                    dogIcon.style.display = 'block';
+                    catIcon.style.display = 'none';
+                } else if (icon === 'cat') {
+                    dogIcon.style.display = 'none';
+                    catIcon.style.display = 'block';
+                } else {
+                    dogIcon.style.display = 'none';
+                    catIcon.style.display = 'none';
+                }
+            }
+        });
+    
+
+
+
+    </script>
+    
+    
+</body>
+
+</html>

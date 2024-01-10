@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	
+	<!-- css連結 -->
+	<link href="./css/bootstrap.min.css" rel="stylesheet">	
+	<link href="./css/style.css" rel="stylesheet">
+    <title>STRAY PET</title>
+    
+</head>
+
+<body>
+    <header>
+        <!-- 漢堡選單 -->
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--固定在上方--> <!--更改BG顏色-->
+            
+            <a class="navbar-brand" href="./index.html"><img src="img/LOGO.png" alt=""></a>
+            <a class="h1 translate-middle" href="./index.html">STRAY PET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-door" viewBox="0 0 20 20">
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                      </svg>
+                      首頁
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart2" viewBox="0 0 20 20">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                        </svg>
+                        購物車
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart" viewBox="0 0 20 20">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg>
+                      追蹤的動物
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./animal.html">收養專區</a></li>
+                      <li><a class="dropdown-item" href="./place.html">服務據點</a></li>
+                      <li><a class="dropdown-item" href="./yummy.html">捐贈及義賣</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        
+        </nav>
+
+    </header>
+    <div class="body">
+    <div class="image-wrapper kk">
+        <img src="./img/超好吃_1.jpg" class="d-block w-100 pp" alt="...">
+    </div>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-buy" type="button" role="tab" aria-controls="nav-home" aria-selected="true">義賣</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-donate" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">捐贈</button>
+          
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-buy" role="tabpanel" aria-labelledby="nav-home-tab">
+    
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="text-center title">義賣專區</p>
+            本網站將會從營利中抽出10%給浪浪們買罐罐
+            <hr class="title_line">
+        </div>
+    </div>
+    
+    <!-- <div class="box_main">
+        <div class="img_other_group">
+            <img src="./img/好吃鮪.jpg" alt="" width="286" height="255" class="img1">
+            <img src="./img/好吃蝦.jpg" alt="" width="286" height="255" class="img1">
+            <img src="./img/好吃鮭.jpg" alt="" width="286" height="255" class="img1">
+
+        </div>
+        <div class="word_other_group">
+            <p class="word3">超級好吃的凍乾-鮪魚<br>$300</p>
+            <p class="word3">超級好吃的凍乾-蝦子<br>$300</p>
+            <p class="word3">超級好吃的凍乾-鮭魚<br>$300</p>
+        </div>
+        <div class="img_other_group">
+            <img src="./img/好吃雞.jpg" alt="" width="286" height="255" class="img1">
+            <img src="./img/超好吃狗罐頭.jpg" alt="" width="286" height="255" class="img1">
+            <img src="./img/好吃鴨.jpg" alt="" width="286" height="255" class="img1">
+        </div>
+        <div class="word_other_group">
+            <p class="word3">超級好吃的罐頭-雞肉<br>$50</p>
+            <p class="word3">超級好吃的罐頭-牛肉<br>$50</p>
+            <p class="word3">超級好吃的罐頭-鴨肉<br>$50</p>
+        </div>
+        <div class="word_number">
+            <p class="number"> 1 2 3 4 ></p>
+        </div>
+    </div> -->
+    <div class="container page" id="food-page-1">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/好吃鮪.jpg" alt="" class="img1">
+                    <p class="product_name text-center">超級好吃的凍乾-鮪魚<br>$300</p>
+                </div>
+            </div> 
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/好吃蝦.jpg" alt="" class="img1">
+                    <p class="product_name text-center">超級好吃的凍乾-蝦子<br>$300</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/超好吃_鱈魚.jpg" alt="" class="img1">
+                    <p class="product_name text-center">超級好吃的凍乾-鱈魚<br>$300</p>
+                </div>
+            </div>
+        
+            <div class="col-md-4">
+                <div class="card">
+                <img src="./img/好吃雞.jpg" alt="" class="img1">
+                <p class="product_name text-center">超級好吃的罐頭-雞肉<br>$50</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                <img src="./img/超好吃狗罐頭.jpg" alt="" class="img1">
+                <p class="product_name text-center">超級好吃的罐頭-牛肉<br>$50</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                <img src="./img/好吃鴨.jpg" alt="" class="img1">
+                <p class="product_name text-center">超級好吃的罐頭-鴨肉<br>$50</p>
+                </div>
+            </div>
+        </div>
+        
+    
+        
+        </div>
+        <div class="container page" id="food-page-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/超好吃_牛肝.jpg" alt="" class="img1">
+                        <p class="product_name text-center">超級好吃的凍乾-牛肝<br>$300</p>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/超好吃_雞胸肉.jpg" alt="" class="img1">
+                        <p class="product_name text-center">超級好吃的凍乾-雞胸肉<br>$300</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/好吃鮭.jpg" alt="" class="img1">
+                        <p class="product_name text-center">超級好吃的凍乾-鮭魚<br>$300</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4">
+                    <div class="card">
+                    <img src="./img/超好吃_低脂.jpg" alt="" class="img1">
+                    <p class="product_name text-center">超級好吃的罐頭-低脂<br>$50</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                    <img src="./img/超好吃_營養.jpg" alt="" class="img1">
+                    <p class="product_name text-center">超級好吃的罐頭-營養<br>$50</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card">
+                    <img src="./img/超好吃_肉蓉.jpg" alt="" class="img1">
+                    <p class="product_name text-center">超級好吃的罐頭-肉蓉<br>$50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination-container">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center pagination-sm">
+                    <li class="page-item"><button class="page-link" onclick="showPage('food-page-1')">1</button></li>
+                    <li class="page-item"><button class="page-link" onclick="showPage('food-page-2')">2</button></li>
+                    <li class="page-item">
+                        <button class="page-link" onclick="showPage('food-page-2')">Next</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div class="pagination-container">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center pagination-sm">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#food" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#food-page-1">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#food-page-2">2</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#food-page-next">Next</a>
+                    </li>
+                </ul>
+                  
+              </nav>
+        </div>  -->
+    </div>
+        <div class="tab-pane fade" id="nav-donate" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="text-center title">捐贈專區</p>
+                    <hr class="title_line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/捐贈_1.jpg" alt="" class="img1">
+                        <p class="product_name text-center">每月捐款</p>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/捐款_2.jpeg" alt="" class="img1">
+                        <p class="product_name text-center">單次捐款</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/捐贈_3.jpg" alt="" class="img1">
+                        <p class="product_name text-center">物資捐款</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      
+      
+                
+    </div>
+    
+    
+        
+    
+        
+        
+      </div>
+    
+    
+
+    </div>
+    <footer class="footer">
+        <div class="footer_1">
+            <p class="text-left">諮詢時間：9:00-17:00<br />服務專線：02-0000000</p>
+        </div>
+        <div class="logo">
+            <img src="./img/LOGO.png" width="48" alt="LOGO" class="logo_1" >
+        </div>
+        <div class="footer_2">
+            <p class="text-right">copyright© stray pet</p>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function showPage(pageId) {
+            // 隱藏所有頁面
+            var pages = document.querySelectorAll('.container.page');
+            pages.forEach(function(page) {
+                page.style.display = 'none';
+            });
+    
+            // 顯示指定頁面
+            var targetPage = document.getElementById(pageId);
+            if (targetPage) {
+                targetPage.style.display = 'block';
+            }
+        }
+    </script>
+    
+    
+    
+
+</body>
+
+</html>
+

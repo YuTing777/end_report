@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	
+	<!-- css連結 -->
+	<link href="./css/bootstrap.min.css" rel="stylesheet">	
+	<link href="./css/style.css" rel="stylesheet">
+    <title>STRAY PET</title>
+    
+</head>
+
+<body>
+    <header>
+        <!-- 漢堡選單 -->
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--固定在上方--> <!--更改BG顏色-->
+            
+            <a class="navbar-brand" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+              </svg></a>
+            <a class="h1 text-center" href="./index.html">STRAY PET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-door" viewBox="0 0 20 20">
+                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                      </svg>
+                      首頁
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart2" viewBox="0 0 20 20">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                        </svg>
+                        購物車
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart" viewBox="0 0 20 20">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg>
+                      追蹤的動物
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./animal.html">收養專區</a></li>
+                      <li><a class="dropdown-item" href="./place.html">服務據點</a></li>
+                      <li><a class="dropdown-item" href="./yummy.html">捐贈及義賣</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        
+        </nav>
+
+    </header>
+    
+    <div class="body">
+        <div class="question">
+            <div class="question_1">
+            <div>
+            <a class="qqq" data-bs-toggle="collapse" href="#collapse_1" aria-expanded="false" aria-controls="collapseExample">
+                 Q : 我該怎麼借誘捕籠
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                  </svg>
+            </a>
+            <div class="collapse" id="collapse_1">
+                <div class="card card-body">
+                    A : 可以打我們的電話 (02)-0000000，或者填寫我們的表單登記，請攜帶身分證正本供查驗。若委託他人代為領用，請攜帶委託書及受託單位代理人身分證
+                    <br><img src="img/身分證.png" alt="" class="ro">
+              </div>
+            </div>
+      
+        </div>
+        
+        
+            <div>
+            <a class="qqq" data-bs-toggle="collapse" href="#collapse_2" aria-expanded="false" aria-controls="collapseExample">
+                 Q : 可以租借多久呢
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                  </svg>
+            </a>
+            <div class="collapse" id="collapse_2">
+                <div class="card card-body">
+                  A : 大約3個月喔!
+                </div>
+              </div>
+            </div>
+        
+            <div>
+            <a class="qqq" data-bs-toggle="collapse" href="#collapse_3" aria-expanded="false" aria-controls="collapseExample">
+                Q : 租借流程
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                  </svg>
+            </a>
+            <div class="collapse" id="collapse_3">
+                <div class="card card-body t">
+                    A : 
+                  <img src="img/流程.png" alt="" class="bo">
+                </div>
+              </div>
+        </div>
+        <div class="kkk">.</div>
+        </div>
+       
+    </div>
+    
+    <footer class="footer foo">
+        <div class="footer_1">
+            <p class="text-left">諮詢時間：9:00-17:00<br />服務專線：02-0000000</p>
+        </div>
+        <div class="logo">
+            <img src="./img/LOGO.png" width="48" alt="LOGO" class="logo_1" >
+        </div>
+        <div class="footer_2">
+            <p class="text-right">copyright© stray pet</p>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var myCollapse = document.getElementById('collapse_1');
+        var bsCollapse = new bootstrap.Collapse(collapse_1, {
+            toggle: false
+        });
+    </script>
+</body>
+
+</html>
