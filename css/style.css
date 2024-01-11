@@ -832,6 +832,8 @@ header{
   .footer_1, .footer_2 {
     display: inline-block; /* 讓元素在同一行 */
 }
+.footer_1{
+	margin-left: 1%;
   .footer {
     display: flex;
     
@@ -851,6 +853,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 1%;
 }
 
 .foo {
