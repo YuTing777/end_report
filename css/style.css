@@ -833,7 +833,7 @@ header{
     display: inline-block; /* 讓元素在同一行 */
 }
 .footer_1{
-	margin-left: 1%;
+	margin-left: 1%;}
   .footer {
     display: flex;
     
